@@ -7,38 +7,40 @@
     <title>4.4 Human Evaluation on Melodic Quality - Demo Samples</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link rel="icon" href="https://gamadhani.github.io/%20favicon.png%20">  
-    <link rel="stylesheet" href="/css/style.min.ba7c70780b880261622082b3bf81b5168bc8411e7467705ff3ab192994cd2227.css">  
+    <link rel="stylesheet" href="/css/style.min.75d979721c77aee3e680cd0fadc988bd8e4d9de67f4d5a370ef8f8e1afe76103.css">  
 
 </head>
 
-<body class='page page-default-single'>
-    <div class="wrapper">
-        <div class='header'>
+
+
+<body class='page-home'></body>
+<div class="wrapper">
+    <div class='header'>
     <div class="container">
         
         
         <div id="main-menu" class="main-menu">
     <ul>
          
-        <li class="menu-item-home">
+        <li class="menu-item-/static/home.png">
             <a href="/">
-                <span>Home</span>
+                
+                <figure>
+                    <img src="/static/home.png" alt="Descriptive text about the image">
+                </figure>
             </a>
         </li>
         
     </ul>
-</div> <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
-  <span class="hamburger-box">
-    <span class="hamburger-inner"></span>
-  </span>
-</button>
+</div>
+        <h1>GaMaDHaNi: Hierarchical Generative Modeling of Melodic Vocal Contours in Hindustani Classical Music</h1>
     </div>
 </div>  
-        <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
-            <div class="row">
-                <div class="col-12 col-md-3 mb-3">
-                    <div class="sidebar">
-                        
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+        <div class="row">
+            <div class="col-12 col-md-3 mb-3">
+                <div class="sidebar">
+                    
 <div class="docs-menu">
     
     <ul>
@@ -69,15 +71,16 @@
         
     </ul>
 </div>
-                    </div>
                 </div>
-                <div class="col-12 col-md-9">
-                     
+            </div>
+            <div class="col-12 col-md-9">
+                 
 <div class="container">
     <h1 class="title">4.4 Human Evaluation on Melodic Quality</h1>
     <div class="content  " style="text-align: justify; ">
-        <h1 id="unprimed-audio-samples"><strong>Unprimed Audio Samples</strong></h1>
-<h2 id="gamadhani-autoregressive-variant">GaMaDHaNi (Autoregressive Variant)</h2>
+        <h1 id="examples-of-audio-samples-used-in-the-listening-test"><strong>Examples of audio samples used in the listening test</strong></h1>
+<p>Presented below are samples from the various systems used in the listening study. Output of all but one of the systems were passed through our spectrogram generator to maintain similar quality. The Hierarchical Encodec Baseline generates audio directly and thus didn&rsquo;t need the spectrogram generator.</p>
+<h2 id="gamadhani-autoregressive-variant">GaMaDHaNi (autoregressive variant)</h2>
 
 <style>
     .audio-gallery {
@@ -136,7 +139,7 @@
     </div>
     
 </div>
-<h2 id="gamadhani-diffusion-variant">GaMaDHaNi (Diffusion Variant)</h2>
+<h2 id="gamadhani-diffusion-variant">GaMaDHaNi (diffusion variant)</h2>
 
 <style>
     .audio-gallery {
@@ -180,7 +183,7 @@
     
     <div class="audio-item">
         <audio controls>
-            <source src="/static/unprimed/diffPitch/5_diffPitch.wav" type="audio/wav">
+            <source src="/static/unprimed/diffPitch/6_diffPitch.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         <p></p>
@@ -195,7 +198,7 @@
     </div>
     
 </div>
-<h2 id="non-hierachical-baseline">Non-Hierachical Baseline</h2>
+<h2 id="non-hierachical-baseline">Non-hierachical baseline</h2>
 
 <style>
     .audio-gallery {
@@ -254,7 +257,7 @@
     </div>
     
 </div>
-<h2 id="hierarchical-encodec-baseline">Hierarchical Encodec Baseline</h2>
+<h2 id="hierarchical-encodec-baseline">Hierarchical Encodec baseline</h2>
 
 <style>
     .audio-gallery {
@@ -282,7 +285,7 @@
     
     <div class="audio-item">
         <audio controls>
-            <source src="/static/unprimed/hier_encodec_baseline/0_transformerBaseline.wav" type="audio/wav">
+            <source src="/static/unprimed/hier_encodec_baseline/0_transformerBaseline_short.mp3" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         <p></p>
@@ -290,7 +293,7 @@
     
     <div class="audio-item">
         <audio controls>
-            <source src="/static/unprimed/hier_encodec_baseline/3_transformerBaseline.wav" type="audio/wav">
+            <source src="/static/unprimed/hier_encodec_baseline/3_transformerBaseline_short.mp3" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         <p></p>
@@ -298,7 +301,7 @@
     
     <div class="audio-item">
         <audio controls>
-            <source src="/static/unprimed/hier_encodec_baseline/7_transformerBaseline.wav" type="audio/wav">
+            <source src="/static/unprimed/hier_encodec_baseline/7_transformerBaseline_short.mp3" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         <p></p>
@@ -306,14 +309,14 @@
     
     <div class="audio-item">
         <audio controls>
-            <source src="/static/unprimed/hier_encodec_baseline/13_transformerBaseline.wav" type="audio/wav">
+            <source src="/static/unprimed/hier_encodec_baseline/13_transformerBaseline_short.mp3" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         <p></p>
     </div>
     
 </div>
-<h2 id="ground-truth-resynthesized-with-spectrogram-generator--griffin-lim">Ground Truth (resynthesized with Spectrogram Generator + Griffin-Lim)</h2>
+<h2 id="ground-truth-resynthesized-with-spectrogram-generator--griffin-lim">Ground truth (resynthesized with Spectrogram Generator + Griffin-Lim)</h2>
 
 <style>
     .audio-gallery {
@@ -373,8 +376,8 @@
     
 </div>
 <h1 id="diversity-in-generation"><strong>Diversity in Generation</strong></h1>
-<h2 id="hierarchical-encodec-baseline-1">Hierarchical Encodec Baseline</h2>
-<p>This model has a tendency to hold the same note
+<h2 id="hierarchical-encodec-baseline-1">Hierarchical encodec baseline</h2>
+<p>This model has a tendency to hold the same note.
 
 <style>
     .audio-gallery {
@@ -418,7 +421,7 @@
     
 </div></p>
 <h2 id="gamadhani">GaMaDHaNi</h2>
-<p>Our proposed methods are able to generate both slow and fast movements, resulting in more variety
+<p>Our proposed methods are able to generate both slow and fast movements, resulting in more variety.
 
 <style>
     .audio-gallery {
@@ -449,7 +452,7 @@
             <source src="/static/qa/2_diffPitch.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
-        <p>GaMaDHaNi (Diffusion Variant)</p>
+        <p>GaMaDHaNi (diffusion variant)</p>
     </div>
     
     <div class="audio-item">
@@ -457,13 +460,13 @@
             <source src="/static/qa/1_transformerPitch.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
-        <p>GaMaDHaNi (Autoregressive Variant)</p>
+        <p>GaMaDHaNi (autoregressive variant)</p>
     </div>
     
 </div></p>
 <h1 id="consistency-of-vocal-timbre"><strong>Consistency of vocal timbre</strong></h1>
-<p>Note: audio samples are all generated in unprimed setting (as defined in section 4.4), only the Hierarchical Baseline samples in this section are generated in the primed generation setting (defined in section 5.1)</p>
-<h2 id="non-hierarchical-baseline">Non-hierarchical Baseline</h2>
+<p>Note: audio samples are all generated unconditionally (as defined in section 4.4), only the Hierarchical baseline&rsquo;s samples in this section are generated in the primed generation setting (defined in section 5.1)</p>
+<h2 id="non-hierarchical-baseline">Non-hierarchical baseline</h2>
 <p>Non-hierarchical baseline sometimes changes the timbre of voice.
 
 <style>
@@ -507,7 +510,7 @@
     </div>
     
 </div></p>
-<h2 id="hierarchical-baseline">Hierarchical Baseline</h2>
+<h2 id="hierarchical-baseline">Hierarchical baseline</h2>
 <p>The hierarchical baseline changes voice during the case of primed generation (4s of input audio is fed to the model and the sequence is continued by the model, see section 5.1 in paper)
 
 <style>
@@ -600,15 +603,15 @@
 </div>
 </div>
 </a> 
-                </div>
             </div>
         </div>
-        
     </div>
+    
+</div>
 
-        
-    <script type="text/javascript" src="/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
-     
+    
+<script type="text/javascript" src="/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
+ 
   
   
     
