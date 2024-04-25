@@ -81,9 +81,10 @@
         <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <h1 id="artifacts-in-the-dataset">Artifacts in the dataset</h1>
-<p>Our dataset included vocal audio separated from mixed audio performance of Hindustani vocal music containing voice, melodic accompaniment (sarangi or harmonium) and rhythmic accompaniment (tabla) as described in section 4.1. In this section we note some instances incorrect data and thus samples of incorrect generation.</p>
+<p>Our dataset included vocal audio separated from mixed audio performance of Hindustani vocal music containing voice, melodic accompaniment (sarangi or harmonium) and rhythmic accompaniment (tabla) as described in section 4.1. In this section we note some instances of incorrect data and, as a result, samples of incorrect generation.</p>
 <h2 id="1-leaked-sarangi-stringed-melodic-instrument-sound">1. Leaked Sarangi (stringed melodic instrument) sound</h2>
-<p>The source separation model, <a href="https://github.com/facebookresearch/demucs">Demucs</a> finds it particularly hard to separate the sarangi sound from the voice. This could be due to a combination of our data being out of distribution for demucs and the similarity of the sarangi&rsquo;s timbre to the voice. The source separated audio shown below is what is fed into our model for training.</p>
+<p>The source separation model, <a href="https://github.com/facebookresearch/demucs">Demucs</a> finds it particularly hard to separate the sarangi sound from the voice. This could be due to a combination of our data being out of distribution for demucs and the similarity of the sarangi&rsquo;s timbre to the voice. The source separated audio shown below is the vocal stem which is fed into our model for training.</p>
+<h3 id="examples-of-sarangi-in-the-dataset">Examples of Sarangi in the dataset</h3>
 <h4 id="example-1-only-sarangi-playing-with-tabla">Example 1: Only Sarangi playing with tabla</h4>
 
 <style>
@@ -213,7 +214,9 @@
     </div>
     
 </div>
-<h2 id="2-speech-in-the-dataset">2. Speech in the dataset</h2>
+<h2 id="2-speech">2. Speech</h2>
+<p>There are some instances of speech in the dataset as well. As a result, some generations seem to have a hybrid of speech and singing sounds.</p>
+<h3 id="example-of-speech-in-the-dataset">Example of speech in the dataset</h3>
 
 <style>
     .audio-gallery {
